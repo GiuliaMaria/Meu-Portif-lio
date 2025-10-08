@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Giulia Oliveira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="#principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header role="banner">
+    <div class="container">
+      <h1 id="logo">Giulia Oliveira</h1>
+      <nav role="navigation">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="principal" role="main">
+
+    <section id="hero">
+      <img src="minha-foto.jpg" alt="Foto de Giulia Oliveira" class="foto-perfil">
+      <h2>Olá — eu sou Giulia Oliveira</h2>
+      <p>Parte da equipe Adecco atuando como Assistente Administrativo, CEO da empresa Cacau dourado e estudante de Análise e Desenvolvimento de Sistemas.</p>
+    </section>
+
+    <section id="sobre" class="container">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Meu nome é Giulia Oliveira, tenho 22 anos e sou apaixonada por tecnologia e empreendedorismo. Atualmente, atuo como CLT na empresa Adecco e também sou CEO da minha própria empresa, a Cacau Dourado, especializada em confeitaria personalizada, com foco em biscoitos, docinhos de festa, ovos de Páscoa e panetones recheados.</p>
+      <p><br>Iniciei meus estudos em Análise e Desenvolvimento de Sistemas (ADS) em 2024, com previsão de conclusão em 2026. Sou uma pessoa espontânea, comunicativa e organizada, com facilidade em Excel, pontualidade, gerenciamento de tempo e liderança de projetos.</p>
+      <p><br>Na Cacau Dourado, aprendi tudo de forma autodidata, desde a produção de doces até a gestão completa do negócio, garantindo produtos personalizados e de alta qualidade. Minha experiência une tecnologia, gestão e criatividade, sempre com foco em resultados e inovação.</p>
+    </section>
+
+    <section id="projetos" class="container">
+      <h2>Meus Projetos</h2>
+      <div class="projeto-box">
+        <img src="logo.png" alt="Logo do projeto Cacau Dourado" class="imagem-projeto">
+        <div class="projeto-texto">
+          <h3>Gestão de Negócios - Cacau Dourado</h3>
+          <p>Projeto desenvolvido em Java para a empresa Cacau Dourado, com foco em automação de processos e gestão personalizada de vendas e estoque.</p>
+          <a href="https://github.com/GiuliaMaria/Cacau-Dourado" target="_blank" class="botao-git">Ver no GitHub</a>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="projeto-box">
+        <img src="DOCE.jpg" alt="Imagem de doce cacau dourado" class="imagem-projeto">
+        <div class="projeto-texto">
+          <h3>Gestão de Instagram – Cacau Dourado</h3>
+          <p>Projeto de marketing digital com criação de conteúdo, planejamento de posts e interação com clientes, reforçando a identidade da marca.</p>
+          <a href="https://www.instagram.com/p/DIrH5q9s3Jz/?igsh=MXN3MHlwc290dTg2eg==" target="_blank" class="botao-git">Ver Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container">
+      <h2>Contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p>Ou envie um email para: <a href="mailto:giuliamaria658@gmail.com">giuliamaria658@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="ano"></span> Giulia Oliveira</p>
+    <p>
+      <a href="https://www.linkedin.com/in/giuliamariaandradeoliveira/" target="_blank">LinkedIn</a> • 
+      <a href="https://github.com/dashboard" target="_blank">GitHub</a>
+    </p>
+    <p><a href="#topo">Voltar ao topo</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
