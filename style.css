@@ -283,6 +283,54 @@ footer a:hover {
 }
 
 /* ================================
+   SEÇÃO HABILIDADES
+================================ */
+#habilidades {
+  background: #1a1a1a;
+  border: 1px solid var(--dourado);
+  border-radius: 10px;
+  padding: 3rem 2rem;
+  margin-top: 2rem;
+}
+
+#habilidades h2 {
+  text-align: center;
+  color: var(--dourado);
+  margin-bottom: 2rem;
+}
+
+.habilidades-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.habilidade {
+  background: #111;
+  border: 1px solid var(--dourado);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(228,199,143,0.2);
+  transition: transform 0.3s ease;
+}
+
+.habilidade:hover {
+  transform: translateY(-5px);
+}
+
+.habilidade h3 {
+  color: var(--dourado);
+  margin-bottom: 0.8rem;
+}
+
+.habilidade p {
+  color: var(--dourado-claro);
+  font-size: 0.95rem;
+}
+
+
+/* ================================
    RESPONSIVIDADE
 ================================ */
 @media (max-width: 768px) {
@@ -299,3 +347,26 @@ footer a:hover {
     gap: 0.5rem;
   }
 }
+
+/* ================================
+   ÍCONES DE REDES SOCIAIS
+================================ */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon-rede {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(0.9);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon-rede:hover {
+  transform: scale(1.15);
+  filter: brightness(1) invert(0);
+}
+
